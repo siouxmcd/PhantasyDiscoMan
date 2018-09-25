@@ -80,7 +80,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -102,11 +102,11 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!114 &114084172193078512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,6 +121,7 @@ MonoBehaviour:
   type: 1
   inversePosition: 0
   trackPosition: 1
+  EnableNeckModel: 1
   inverseRotation: 0
   trackRotation: 1
   timing: 1
@@ -136,6 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ipd: 0.063
+  cpuPerfLevel: 0
+  gpuPerfLevel: 0
   CameraGaze: 0
   lefteye: {fileID: 0}
   righteye: {fileID: 0}
@@ -143,3 +146,4 @@ MonoBehaviour:
   loadingCanvas: {fileID: 0}
   ear: {fileID: 0}
   _origin: 1
+  needTimeControl: 0

@@ -53,7 +53,7 @@ public class DanceBattle : MonoBehaviour {
         Opponent.position = Vector3.Lerp(Opponent.position, new Vector3(-0.137f, 2.035491f, -0.419f), Time.deltaTime);
         Opponent.rotation = Quaternion.Lerp(Opponent.rotation, oppTarget.rotation, Time.deltaTime);
         secondsCount += Time.deltaTime;
-        if (secondsCount >= 2)
+        if (secondsCount >= 2.01)
         {
             for (int i = 0; i <= danceLights.Length - 1; i++)
             {
@@ -97,6 +97,10 @@ public class DanceBattle : MonoBehaviour {
             case 3:
                 dkAnim.SetBool("Turn2", true);
                 isTurn = false;
+                pointLcount = 0;
+                pointRcount = 0;
+                shakeLcount = 0;
+                shakeRcount = 0;
                 break;
             case 4:
                 dkAnim.SetBool("Turn2", false);
@@ -104,6 +108,10 @@ public class DanceBattle : MonoBehaviour {
                 break;
             case 5:
                 isTurn = false;
+                pointLcount = 0;
+                pointRcount = 0;
+                shakeLcount = 0;
+                shakeRcount = 0;
                 battleScore += gm.theThreadz;
                 break;
             default:
@@ -116,31 +124,61 @@ public class DanceBattle : MonoBehaviour {
             {
                 pointLcount++;
                 battleScore += gm.MoveScore("basicMove", pointLcount);
+                animator.SetBool("isPointL", true);
+            }
+            if (Input.GetKeyUp(KeyCode.Q))
+            {
+                animator.SetBool("isPointL", false);
             }
             if (Input.GetKeyDown(KeyCode.W))
             {
                 pointRcount++;
                 battleScore += gm.MoveScore("basicMove", pointRcount);
+                animator.SetBool("isPointR", true);
+            }
+            if (Input.GetKeyUp(KeyCode.W))
+            {
+                animator.SetBool("isPointR", false);
             }
             if (Input.GetKeyDown(KeyCode.A))
             {
                 shakeLcount++;
                 battleScore += gm.MoveScore("basicMove", shakeLcount);
+                animator.SetBool("isShakeL", true);
+            }
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                animator.SetBool("isShakeL", false);
             }
             if (Input.GetKeyDown(KeyCode.S))
             {
                 shakeRcount++;
                 battleScore += gm.MoveScore("basicMove", shakeRcount);
+                animator.SetBool("isShakeR", true);
+            }
+            if (Input.GetKeyUp(KeyCode.S))
+            {
+                animator.SetBool("isShakeR", false);
             }
             if (Input.GetKeyDown(KeyCode.E))
             {
                 victoryCount++;
                 battleScore += gm.MoveScore("finishMove", victoryCount);
+                animator.SetBool("isVictory", true);
+            }
+            if (Input.GetKeyUp(KeyCode.E))
+            {
+                animator.SetBool("isVictory", false);
             }
             if (Input.GetKeyDown(KeyCode.D))
             {
                 splitsCount++;
                 battleScore += gm.MoveScore("finishMove", splitsCount);
+                animator.SetBool("isSplits", true);
+            }
+            if (Input.GetKeyUp(KeyCode.D))
+            {
+                animator.SetBool("isSplits", false);
             }
         }
         

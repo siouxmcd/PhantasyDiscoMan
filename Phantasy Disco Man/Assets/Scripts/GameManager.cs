@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour {
     public int balanceSkill;
     public int movesetSkill;
 
+    public Animator bartender;
+
     private float theDo;
     private float theSneaks;
     public float theThreadz;
@@ -63,24 +65,24 @@ public class GameManager : MonoBehaviour {
         float fluidityScore;
         float balanceScore;
 
-        float fluidRange = Random.Range(0, fluidSkill);
-        float balanceRange = Random.Range(0, balanceSkill);
+        float fluidRange = Random.Range(0, 10);
+        float balanceRange = Random.Range(0, 10);
 
         if (fluidRange <= fluidSkill)
         {
-            fluidityScore = 1;
+            fluidityScore = 10;
         } else
         {
-            fluidityScore = fluidRange / 2;
+            fluidityScore = fluidRange % 2;
         }
 
         if (balanceRange <= balanceSkill)
         {
-            balanceScore = 1;
+            balanceScore = 10;
         }
         else
         {
-            balanceScore = balanceRange / 2;
+            balanceScore = balanceRange % 2;
         }
 
         moveScore += fluidityScore;
@@ -111,9 +113,13 @@ public class GameManager : MonoBehaviour {
 
     public void Drink (string drink)
     {
+        bartender.SetBool("isSold", true);
+        StartCoroutine(bartenAnim());
         ui.barCanvas.enabled = false;
+        
         if(drink == "Cactus")
         {
+            ui.cactus.gameObject.SetActive(true);
             fluidSkill = 0;
             improvSkill = 10;
             balanceSkill = 3;
@@ -122,6 +128,7 @@ public class GameManager : MonoBehaviour {
         }
         if(drink == "Beer")
         {
+            ui.beer.gameObject.SetActive(true);
             beerCount++;
             if(beerCount == 1)
             {
@@ -166,5 +173,13 @@ public class GameManager : MonoBehaviour {
             balanceSkill += 3;
         }
         beerCount--;
+    }
+
+    IEnumerator bartenAnim()
+    {
+        yield return new WaitForSeconds(3);
+        bartender.SetBool("isSold", false);
+        ui.cactus.gameObject.SetActive(false);
+        ui.beer.gameObject.SetActive(false);
     }
 }

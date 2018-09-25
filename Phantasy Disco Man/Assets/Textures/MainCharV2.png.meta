@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 5d3690a52d62d9b4c8f2854451c8a97a
+timeCreated: 1537709340
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MainCharV2_0
+    21300002: MainCharV2_1
+    21300004: MainCharV2_2
+    21300006: MainCharV2_3
+    21300008: MainCharV2_4
+    21300010: MainCharV2_5
+    21300012: MainCharV2_6
+    21300014: MainCharV2_7
+    21300016: MainCharV2_8
+    21300018: MainCharV2_9
+    21300020: MainCharV2_10
+    21300022: MainCharV2_11
+    21300024: MainCharV2_12
+    21300026: MainCharV2_13
+    21300028: MainCharV2_14
+    21300030: MainCharV2_15
+    21300032: MainCharV2_16
+    21300034: MainCharV2_17
+    21300036: MainCharV2_18
+    21300038: MainCharV2_19
+    21300040: MainCharV2_20
+    21300042: MainCharV2_21
+    21300044: MainCharV2_22
+    21300046: MainCharV2_23
+    21300048: MainCharV2_24
+    21300050: MainCharV2_25
+    21300052: MainCharV2_26
+    21300054: MainCharV2_27
+    21300056: MainCharV2_28
+    21300058: MainCharV2_29
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainCharV2_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 824
+        width: 88
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 824
+        width: 62
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 998
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 824
+        width: 52
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_4
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 824
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 634
+        width: 103
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 635
+        width: 88
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 634
+        width: 62
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 634
+        width: 63
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 634
+        width: 105
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 634
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 634
+        width: 63
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_12
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 634
+        width: 62
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 445
+        width: 98
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 445
+        width: 88
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 446
+        width: 92
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 445
+        width: 88
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_17
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 445
+        width: 98
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 445
+        width: 92
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 92
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 256
+        width: 88
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_21
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 430
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 430
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 256
+        width: 92
+        height: 164
+      alignment: 9
+      pivot: {x: 0.4572389, y: 0.55067426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_24
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 256
+        width: 92
+        height: 164
+      alignment: 9
+      pivot: {x: 0.52586365, y: 0.55996144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 256
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_26
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 256
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 66
+        width: 103
+        height: 175
+      alignment: 9
+      pivot: {x: 0.60444975, y: 0.5273226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_28
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 98
+        width: 139
+        height: 146
+      alignment: 9
+      pivot: {x: 0.50430036, y: 0.627569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainCharV2_29
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 64
+        width: 92
+        height: 176
+      alignment: 9
+      pivot: {x: 0.48700714, y: 0.49999982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

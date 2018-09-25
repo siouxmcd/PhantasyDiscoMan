@@ -28,6 +28,8 @@ TextureImporter:
     21300042: NPCChar2-Tailor_21
     21300044: NPCChar2-Tailor_22
     21300046: NPCChar2-Tailor_23
+    21300048: NPCChar2-Tailor_24
+    21300050: NPCChar2-Tailor_25
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -118,18 +120,32 @@ TextureImporter:
       name: NPCChar2-Tailor_0
       rect:
         serializedVersion: 2
-        x: 271
-        y: 824
-        width: 62
-        height: 175
+        x: 164
+        y: 827
+        width: 73
+        height: 174
       alignment: 9
-      pivot: {x: 0.44423553, y: 0.5316117}
+      pivot: {x: 0.5096538, y: 0.5405021}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: NPCChar2-Tailor_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 824
+        width: 62
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPCChar2-Tailor_2
       rect:
         serializedVersion: 2
         x: 538
@@ -143,35 +159,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_2
+      name: NPCChar2-Tailor_3
       rect:
         serializedVersion: 2
         x: 783
         y: 824
         width: 52
         height: 175
-      alignment: 9
-      pivot: {x: 0.48670256, y: 0.5355622}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: NPCChar2-Tailor_3
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 824
-        width: 74
-        height: 174
-      alignment: 9
-      pivot: {x: 0.48131138, y: 0.5397409}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: NPCChar2-Tailor_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 824
+        width: 74
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPCChar2-Tailor_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 940
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPCChar2-Tailor_6
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 824
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPCChar2-Tailor_7
       rect:
         serializedVersion: 2
         x: 120
@@ -185,57 +229,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_5
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 824
-        width: 73
-        height: 174
-      alignment: 9
-      pivot: {x: 0.5000004, y: 0.53179264}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: NPCChar2-Tailor_6
+      name: NPCChar2-Tailor_8
       rect:
         serializedVersion: 2
         x: 40
         y: 634
         width: 103
         height: 182
-      alignment: 9
-      pivot: {x: 0.41272512, y: 0.5075989}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: NPCChar2-Tailor_7
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 635
-        width: 88
-        height: 181
-      alignment: 9
-      pivot: {x: 0.46856898, y: 0.50764084}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: NPCChar2-Tailor_8
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 634
-        width: 62
-        height: 175
-      alignment: 9
-      pivot: {x: 0.43308234, y: 0.5276597}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,12 +246,12 @@ TextureImporter:
       name: NPCChar2-Tailor_9
       rect:
         serializedVersion: 2
-        x: 378
-        y: 634
-        width: 63
-        height: 175
-      alignment: 9
-      pivot: {x: 0.43414453, y: 0.5237085}
+        x: 164
+        y: 635
+        width: 88
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +260,12 @@ TextureImporter:
       name: NPCChar2-Tailor_10
       rect:
         serializedVersion: 2
-        x: 448
+        x: 271
         y: 634
-        width: 105
-        height: 182
-      alignment: 9
-      pivot: {x: 0.42097342, y: 0.5113988}
+        width: 62
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +274,12 @@ TextureImporter:
       name: NPCChar2-Tailor_11
       rect:
         serializedVersion: 2
-        x: 568
+        x: 378
         y: 634
-        width: 88
-        height: 182
-      alignment: 9
-      pivot: {x: 0.46856898, y: 0.5113985}
+        width: 63
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,12 +288,12 @@ TextureImporter:
       name: NPCChar2-Tailor_12
       rect:
         serializedVersion: 2
-        x: 670
+        x: 448
         y: 634
-        width: 63
-        height: 175
-      alignment: 9
-      pivot: {x: 0.58780825, y: 0.5355622}
+        width: 105
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,18 +302,46 @@ TextureImporter:
       name: NPCChar2-Tailor_13
       rect:
         serializedVersion: 2
-        x: 773
+        x: 568
         y: 634
-        width: 62
-        height: 175
-      alignment: 9
-      pivot: {x: 0.57807183, y: 0.5434651}
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: NPCChar2-Tailor_14
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 634
+        width: 63
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPCChar2-Tailor_15
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 634
+        width: 62
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPCChar2-Tailor_16
       rect:
         serializedVersion: 2
         x: 46
@@ -325,7 +355,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_15
+      name: NPCChar2-Tailor_17
       rect:
         serializedVersion: 2
         x: 148
@@ -339,7 +369,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_16
+      name: NPCChar2-Tailor_18
       rect:
         serializedVersion: 2
         x: 455
@@ -353,7 +383,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_17
+      name: NPCChar2-Tailor_19
       rect:
         serializedVersion: 2
         x: 556
@@ -367,7 +397,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_18
+      name: NPCChar2-Tailor_20
       rect:
         serializedVersion: 2
         x: 48
@@ -381,7 +411,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_19
+      name: NPCChar2-Tailor_21
       rect:
         serializedVersion: 2
         x: 148
@@ -395,7 +425,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_20
+      name: NPCChar2-Tailor_22
       rect:
         serializedVersion: 2
         x: 538
@@ -409,7 +439,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_21
+      name: NPCChar2-Tailor_23
       rect:
         serializedVersion: 2
         x: 568
@@ -423,7 +453,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_22
+      name: NPCChar2-Tailor_24
       rect:
         serializedVersion: 2
         x: 465
@@ -437,7 +467,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NPCChar2-Tailor_23
+      name: NPCChar2-Tailor_25
       rect:
         serializedVersion: 2
         x: 573
